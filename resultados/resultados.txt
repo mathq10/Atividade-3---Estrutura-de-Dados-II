@@ -1,0 +1,57 @@
+ANÁLISE DE ALGORITMOS DE ORDENAÇÃO
+CENTRAL DE DISTRIBUIÇÃO DE PEDIDOS
+
+============================================================
+RESULTADOS DOS EXPERIMENTOS
+============================================================
+
+Os valores abaixo foram obtidos através da execução do
+programa main.py.
+
+---------------------------------------------------------------------------
+Tamanho | Bubble C. | Bubble T. | Insert C. | Insert M. |
+        | Select C. | Select T. | Quick C.  | Quick M.
+---------------------------------------------------------------------------
+
+10      | 45        | 25        | 31        | 34        |
+        | 45        | 7         | 20        | 13
+
+20      | 190       | 109       | 123       | 128       |
+        | 190       | 17        | 76        | 35
+
+1000    | 499500    | 252209    | 253199    | 253208    |
+        | 499500    | 993       | 11235     | 4570
+
+
+============================================================
+DESAFIO ADICIONAL
+============================================================
+
+VETOR ALEATÓRIO - 100 ELEMENTOS
+
+Algoritmo       Comparações       Trocas/Movimentações
+--------------------------------------------------------
+Bubble          4950              2566
+Insertion       2662              2665
+Selection       4950              96
+Quick           587               238
+
+
+VETOR JÁ ORDENADO - 100 ELEMENTOS
+
+Algoritmo       Comparações       Trocas/Movimentações
+--------------------------------------------------------
+Bubble          4950              0
+Insertion       99                99
+Selection       4950              0
+Quick           4950              0
+
+
+VETOR EM ORDEM INVERSA - 100 ELEMENTOS
+
+Algoritmo       Comparações       Trocas/Movimentações
+--------------------------------------------------------
+Bubble          4950              4950
+Insertion       4950              5049
+Selection       4950              50
+Quick           4950              50
