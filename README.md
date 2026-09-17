@@ -1,4 +1,3 @@
-# Atividade-3---Estrutura-de-Dados-II
 # Análise de Algoritmos de Ordenação
 
 ## Central de Distribuição de Pedidos
